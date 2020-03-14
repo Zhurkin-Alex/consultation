@@ -1,0 +1,131 @@
+.servises {
+    padding: 50px 0 33px;
+}
+
+.servises__top 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.servises__title-box,
+.news__title-box{
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 106px;
+        height: 2px;
+        background-color: #ffc222;
+        left: 0;
+        top: 9px
+    }
+}
+
+.servises__title,
+.news__title {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #212020;
+    margin-bottom: 14px;
+}
+
+.servises__text,
+.news__text {
+    letter-spacing: 0.01em;
+
+}
+
+.servises__btn
+ {
+    display: flex;
+    align-items: center;
+
+}
+
+.servises__btn a,
+.news__btn a {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #373636;
+    padding: 11px 45px;
+    border: 3px solid #e6e6e6;
+
+}
+
+.servises__itims {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servises__itim {
+    max-width: 400px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 3px 6px 24px 3px rgba(91, 88, 88, 0.14);
+    margin-right: 30px;
+    padding: 28px 0 80px;
+    position: relative;
+    min-height: 375px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+}
+
+.servises__img {
+
+    padding-bottom: 30px;
+}
+
+.servises__item-title {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #212020;
+    padding-bottom: 28px;
+}
+
+.servises__item-text {
+    letter-spacing: 0.01em;
+    color: #5e5e5e;
+    text-align: center;
+    padding: 0px 30px 30px;
+}
+
+.servises__item-btn {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+
+}
+
+.servises__btns {
+    margin-left: 65px;
+    color: #373636;
+
+    &:after {
+        color: #fff;
+    }
+}
+
+.servises__item-link {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid  #050505;
+    color: #050505;
+}

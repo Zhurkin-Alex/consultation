@@ -7,7 +7,7 @@ let gulp = require('gulp'),
 
 
 gulp.task('scss', function(){
-    return gulp.src('./app/scss/**/*.scss')
+    return gulp.src('./app/scss/style.scss')
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./app/css'))

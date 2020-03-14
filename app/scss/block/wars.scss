@@ -1,0 +1,9 @@
+@function rem($px){
+    @return $px/ 16px + 0rem; 
+}
+
+$desktop: 1200px;
+$laptop: 992px;
+$tablets: 768px;
+$phon: 480px;
+$small-phones: 320px;

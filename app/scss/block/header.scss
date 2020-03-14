@@ -1,0 +1,97 @@
+
+
+.header__top {
+
+    background-color: #303030;
+}
+
+.contacs {
+    display: flex;
+    padding: 15px 0;
+    flex-wrap: wrap;
+    
+}
+
+.contacs__class {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #cbcacb;
+}
+.header__content{
+    padding: 38px 0 32px 0;
+}
+.container-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__email {
+    padding-left: 59px;
+    font-family: 'icomoon'; 
+    &::before{
+        content: "\f003";
+        padding-right: 10px;
+        color: #ffcd21;
+    }
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc222;
+    text-align: center;
+}
+
+.header__btn-item {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #1b1b1b;
+    padding: 0 22px;
+    &::before{
+        font-family: 'icomoon';
+        content: "\f0b1";
+        padding-right: 10px;
+    }
+}
+
+
+.menu__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__item{
+    margin-right: 46px;
+    padding:7px 16px;
+    border: 1px solid transparent;
+    transition: .3s;
+    &:last-child{
+        margin-right: 0;
+    }
+    &:hover{
+        
+        border: 1px solid #ffc222;
+    }
+}
+.header__number{
+    &:before{
+    content: "\f095";
+    font-family: 'icomoon';
+    padding-right: 10px;
+    color: #ffcd21;
+}
+}
+#modal{
+    display: none;
+}
+.header__burger-menu{
+     display:none;
+     font-size: 28px;
+     cursor: pointer;
+ }  
+   
